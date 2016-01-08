@@ -15,7 +15,7 @@
     <server>
       <id>github</id>
       <username>${env.GH_USER}</username>
-      <passphrase>${env.GH_PASS}</passphrase>
+      <password>${env.GH_PASS}</password>
     </server>
   </servers>
   <mirrors>

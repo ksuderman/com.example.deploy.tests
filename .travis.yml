@@ -1,14 +1,18 @@
 language: java
 branches:
-    only:
-        - master
-        - develop
+  only:
+  - master
+  - develop
+env:
+  global:
+  - secure: WSbz2Q4PgazX/hM1UCgupyDXFMqS35vUTcbQ/F6sxtIw8kZivZuESTW3l65A8JD2neHeUu1dL716Hs3sUSUtFQrsYRAe0R94p7I3wb9Gt4Fw9nPed9eq8TqXfzjWmgASzebZa6BWhC+8wvxcNaJNhmeJRlQ1PIV3EwKIdrg3K+xL67I4/Ws5rnH0SYF41fAOOBLaEgXABYVw1GyrKv98Rv7QYr9asf4tWx9c+AJsG/zoAC3efTOF/4cNNLTkXBve9lFaQv5rSBO++jy1zEbai8AcebSjTwDdb2fUXmNrAcugs28mZI1qSmo1S9LPpc8yPYCMmwEoO0OBxVPTAY1NW7b5BsH6QUSW8fz7eXlDaI2ryztHiPGD6J95LKtF6Rq3gp7I8N5gc4WYeMDVnOmif7AmOC/I/NJgiSH6dq5uFnpx6HoTYPV1gNoK0nCIEXlSgjd+MvuO8DbfyorjLESyhdlnrkltIBUKqQ5Y6szJ2K74U721TQ1Re6S738n+xQs5FMcsSyxTfwdQNEmoCJR8gUxxm3lm/HlBcUor6zNzjqGEnAUFiMOKD55h7NgyPn2tEPBDa9FH9b1w8a89L3QfD0ku6H7Yk5wGWweBot3Tf6pNgvqe2AGxZ/0TtcJf7wxzA5soeMtZMnxI01ludiXfYbCoXj8k0O+Rw79n0rO6Ypk=
+  - secure: B7Ca3KxWYzfPhZBP17o36v7KD3d9tWB/nqZQzMTTzDIXozaVywgJupeoxIU7YhoTdXVxvyfn39UU9XtSbcIzUOvBTMEmeJ0iH6l/yRx01JNd80kTSZNFK9mJjCsLqgUMtUfcs9DbEKjuo8bQk3xhdIshwlrtxd66TUBi28C31uo0h32IjCL347vKCm6btdNZJkptXe+PjCj9FM89UJdZUAgxfccWR96Bm/F7ht00ZBj8HIYoPSwBVvufRoxyRidls+ad5MvUm23HpfwlmUyiZwXSlioYnFCBZblwhBzGMjHWYOYqB42gVQlwpiPPk0ikaieQCPMgmae+3X45a1L2O0UgjfqY4/Z/SproTIBxSO8wchaGMeqPSVPLTNFlZ1DrcVOouSEu0Cw7WqFIIMxbZVnLTORivwq3HP272OtUry2W7jh1IvPg5ZaLBXrCcP/39rfxnbe2J7MiJWRvYAGR3zZWdL2zK1XY179Q9uqt1OEF3DO4HOyJLuyMaJ1giFc4Zw8qPqXQLA86xFcOr3J9rIjz3Q26yI5flNrAaJpBoTftwJR8apF7pm+BwwWoCmiogYyLE/VF+2dot4cZfdHGFO84i6xLIQ2UEX6KdIMLNra1KwpeSAFOsy7EGtonrQzfH7c1pcb1Y1Zc7j6HlUTD1ok/7D2FcXqNAl7evZFKZ5w=
+  - secure: QrTFjr8WCGCLQ8HcwigmMw2b/dK6MeDnMghjg//WQIwAEWw1Yd+AEUkSZgd+nBcp1FqePAEqYupdAt/5t6/DSKpVbMCy/CJYOnhWOYymcWBxw8FdthCLh+L/UwrdVDzYqMZa0qITplkqbawVRZiTrRGRd7cxuiRBlmUHzXEtsV1P7C0ztPPqx4r4/1RkoA5PZ2gVWL3rDu33YjQtLYkkUclWR8gmNDKgazdQ6bUeAp/3+4tGhn+s4NOWax3h7ZoR4SZvihmKIo56bUeadLOFZ9+ADd74OY8NhdTi1QCoa79EpvVxiE1Z/eKIMLQIaAQDh2VYI4+KAt4Grf4l9auBCLswZdu7Yac+I7akHVK3wDR2nSejESuwha30YfDN+ipdQVdOw5nqlDebSWyx/sgWCVS+T6h5z1elzwHtz5X7WPFDw74aG6qS5OmyZKOXq1iPwnKW69y7NWVCnu4KkimyEuUFuTp03QJns5c5O3SOLkkc8Ir1RB3RkzeEg6eUqgnfNsij/s7RtygW9iWnD+6nTnw9Hq9nrgocpTntT/yokjzFkP6a1eyceSQuIVx71TfIA1QWe+R5pAMLXCadx/l2cDhkPjQp957rVOW1cbloDyF22skb9K4Yf2VlZnO0umn8ON0iBdqXi8lY+qD/oU0ai1lG6yUopfvof813qbA9yJs=
+  - secure: bjr4gVEzwsL+jPnpH+2Zb2Mb2Ehn46anvgQtrWKjjgf4w/NLN4tRAtWE3+JLGkYKyf8lAxvFd2SX87SNQbhYDCR1sC2YPV5l75pXGTTvZn3yvTEOM+Lj/jX+/wNIKsG1r5dhboJGVp+qwwEyxb/F1GYk29MSyHTI8NGR+GAlaa4HPdYNzdKTg/K//5ienvF6MIJSFlRjY+fJlz2Pys5gji9VQSJGBsyapYbBuOpwPw8dhD9Nm39IaY/tRr6Jnmy7Rw7y05QhrPYMFGnRUF+kbU5ukkTP16cVXj/zZMx6Xmph4FOcEAxLrHMx8wEBLOofi3xbG2InVg1pBb9N57W+BGqsEEOxhqMFsB88DgI1uJmlifQBUqqjj8fwwhWTIhSQ+R9gaB6ght9b/JFsoroJ82HZ8+Rd+5QYo5x2XiZC45bkdNlXZLnS5uyX6jfIwP1Of4aaA5N7IpjsYpwMR131GlCVU/HxLSoXM7ENUKgAWlN03pk5+uzMVQQqHdhXbaBadpIbbs457ORVlk7wwSQhxuOaUkjRrsJ6gwrz0kw8LGyunV4mnBXXu6QkC+3kQhsF8Tb9554+kBni33ur21LMlBb5jpQIvxggxy77dD6TTAOsKfVFlakOpFhFAAJbgBc78XR/r3Gy/OVFM3h9LAezAbToqdfaYFGQOS17Qbohq8w=
 script:
-    - mvn clean test --settings settings.xml
+- mvn clean test --settings settings.xml
 after-success:
-    - if [ "$TRAVIS_BRANCH" == "master" ] ; then 
-        mvn -DskipTests=true javadoc:jar source:jar deploy
-        mvn -DskipTests=true site  
-      fi
-
-    
+- if [ "$TRAVIS_BRANCH" == "master" ] ; then
+    mvn -DskipTests=true javadoc:jar source:jar deploy --settings settings.xml
+    mvn site --settings settings.xml
+  fi
