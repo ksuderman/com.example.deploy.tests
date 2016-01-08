@@ -1,0 +1,14 @@
+language: java
+branches:
+    only:
+        - master
+        - develop
+script:
+    - mvn clean test --settings settings.xml
+after-success:
+    - if [ "$TRAVIS_BRANCH" == "master" ] ; then 
+        mvn -DskipTests=true javadoc:jar source:jar deploy
+        mvn -DskipTests=true site  
+      fi
+
+    
