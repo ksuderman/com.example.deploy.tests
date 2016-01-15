@@ -3,3 +3,4 @@ target/
 *.ipr
 *.iws
 pom.xml.versionsBackup
+secure.sh

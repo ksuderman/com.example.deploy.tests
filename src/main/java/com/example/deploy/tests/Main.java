@@ -15,12 +15,16 @@ public class Main
 	}
 
 	/** The run method does the actual work. */
-	public void run() {
-		System.out.println("Hello world");
+	public void greet(String who) {
+		System.out.println("Hello " + who);
 	}
 
 	/** Application entry point. */
 	public static void main(String[] args) {
-		new Main().run();
+		String who = "world";
+		if (args.length > 0) {
+			who = args[0];
+		}
+		new Main().greet(who);
 	}
 }
