@@ -23,7 +23,7 @@
 
     <groupId>com.example.deploy</groupId>
     <artifactId>tests</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <name>Deployment Testing</name>
     <description>Repository used to develop deployment and release procedures</description>
     <properties>
@@ -82,6 +82,29 @@
     </build>
     <dependencies>
     </dependencies>
+    <profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
     <reporting>
         <plugins>
             <plugin>
