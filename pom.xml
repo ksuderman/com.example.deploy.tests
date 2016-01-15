@@ -23,7 +23,7 @@
 
     <groupId>com.example.deploy</groupId>
     <artifactId>tests</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <name>Deployment Testing</name>
     <description>Repository used to develop deployment and release procedures</description>
     <properties>
