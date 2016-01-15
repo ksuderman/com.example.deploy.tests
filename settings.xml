@@ -13,11 +13,6 @@
       <password>${env.NEXUS_PASSWORD}</password>
     </server>
     <server>
-      <id>anc-snapshots</id>
-      <username>nexus</username>
-      <password>N3xu5D3pl0y</password>
-    </server>
-    <server>
       <id>github</id>
       <username>${env.GH_USER}</username>
       <password>${env.GH_PASS}</password>
